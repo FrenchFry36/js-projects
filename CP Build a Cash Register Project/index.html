@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>Cash Register Project</h1>
+        <div id="change-due"></div>
+        <div id="for-cash-input">
+            <label id="cash-label" for="cash">Enter cash from customer:</label>
+            <input type="number" id="cash">
+            <button id="purchase-btn">Purchase</button>
+        </div>
+        <div id="cash-drawer">
+            <div id="first" class="drawer-body">
+                <div class="parts" id="screen">
+                    <p id="price-txt">Total: $<span id="price">3.26</span></p>
+                </div>
+            </div>
+            <div id="second" class="drawer-body"></div>
+            <div id="third" class="drawer-body">
+                <div id="btns-container">
+                    <div class="parts btns"></div>
+                    <div class="parts btns"></div>
+                    <div class="parts btns"></div>
+                    <div class="parts btns"></div>
+                    <div class="parts btns"></div>
+                    <div class="parts btns"></div>
+                    <div class="parts btns"></div>
+                    <div class="parts btns"></div>
+                    <div class="parts btns"></div>
+                </div>
+                <div id="cid">
+
+                    <div id="cid-screen">
+                        <p>Pennies: $<span id="pennies" class="cid">1.01</span></p>
+                        <p>Nickels: $<span id="nickels" class="cid">2.05</span></p>
+                        <p>Dimes: $<span id="dimes"  class="cid">3.1</span></p>
+                        <p>Quaters: $<span id="quaters" class="cid">4.25</span></p>
+                        <p>Ones: $<span id="ones" class="cid">90</span></p>
+                        <p>Fives: $<span id="fives" class="cid">55</span></p>
+                        <p>Tens: $<span id="tens" class="cid">20</span></p>
+                        <p>Twenties: $<span id="twenties" class="cid">60</span></p>
+                        <p>Hundreds: $<span id="hundreds" class="cid">100</span></p>
+                    </div>
+                </div>
+            </div>
+            <div id="forth" class="drawer-body">
+                <div id="circle" class="parts"></div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

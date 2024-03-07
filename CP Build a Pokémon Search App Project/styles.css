@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    background-color: #781827;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#container {
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#search-input {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: none;
+    height: 31px;
+}
+
+#search-button {
+    width: 80px;
+    height: 31px;
+    margin-left: 10px;
+    background-color: #22524D;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 1em;
+}
+
+#result-screen {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 325px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pic {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sprite {
+    width: 180px;
+}
+
+#types {
+    min-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.type {
+    width: 66px;
+    padding: 6px;
+    font-size: 0.7rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: red;
+    text-transform: uppercase;
+}
+
+table {
+    width: 100%;
+    background-color: #22524D;
+    color: white;
+    border-collapse: collapse;
+    border-color: white;
+    margin-top: 5px;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr {
+    border-bottom: 5px solid white;
+}
+
+th:nth-child(even),
+td:nth-child(even) {
+  border-left: 5px solid white;
+}
